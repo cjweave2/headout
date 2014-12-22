@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#dbe4f3" />
+        </shape>
+    </item>
+
+    <!-- This is the bottom line -->
+    <item>
+        <shape>
+            <solid android:color="#dbe4f3" />
+            <stroke android:width="4dp" android:color="#a6b3ca"
+                android:dashWidth="10dp" android:dashGap="7dp" />
+        </shape>
+    </item>
+
+    <!-- This is the main color -->
+    <item android:top="4dp" android:bottom="4dp">
+        <shape>
+            <solid android:color="#cad4e4" />
+        </shape>
+    </item>
+
+</layer-list>

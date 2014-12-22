@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#999999</color>
+    <color name="red">#ff0000</color>
+    <color name="title">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="tweet_background">#dddddd</color>
+    <color name="text">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="tweet_link">#0000FF</color>
+
+    <color name="headerBarTextOn">#FFFFFF</color>
+    <color name="headerBarTextOff">#00000000</color>
+    <color name="titlenormalbackgroundcolor">#939393</color>
+    <color name="titledisasterbackgroundcolor">#ff0000</color>
+    <color name="tweet_background_normal_start">#000000</color>
+    <color name="tweet_background_normal_end">#454545</color>
+    <color name="tweet_background_disaster_start">#450000</color>
+    <color name="tweet_background_disaster_end">#994545</color>
+    <color name="tweet_background_mention_start">#002200</color>
+    <color name="tweet_background_mention_end">#455545</color>
+    <color name="tweet_background_own_start">#000022</color>
+    <color name="tweet_background_own_end">#454555</color>
+
+    <color name="general_background_end">#61421F</color>
+    <color name="general_background_start">#272010</color>
+
+    <color name="btn_blue_background_start">#000022</color>
+    <color name="btn_blue_background_end">#454555</color>
+    <color name="btn_red_background_start">#450000</color>
+    <color name="btn_red_background_end">#994545</color>
+    <color name="btn_orange_background_start">#453300</color>
+    <color name="btn_orange_background_end">#ffa500</color>
+
+    <color name="dm_background_disaster_start">#FD8566</color>
+    <color name="dm_background_disaster_end">#FD6466</color>
+
+    <!-- new UI colors -->
+    <color name="BackgroundLight">#dbe4f3</color>
+    <color name="BackgroundDark">#cad4e4</color>
+    <color name="TextDark">#353f50</color>
+    <color name="TextLight">#838e9e</color>
+    <color name="HeaderBackground">#627595</color>
+    <color name="Separator">#a6b3ca</color>
+    <color name="ButtonBackground">#838e9e</color>
+    <color name="ButtonBackgroundShadow">#404a5b</color>
+
+    <color name="BackgroundOwn">#e4dbf3</color>
+    <color name="BackgroundMention">#dbf3e4</color>
+    <color name="BackgroundDisaster">#ffe4db</color>
+    <color name="ButtonActive">#9e838e</color>
+    <color name="HeaderBackgroundDisaster">#bb5454</color>
+    <color name="ImageBorder">#747474</color>
+    <color name="downloaded_page">#90CA77</color>
+    <color name="undownloaded_page">#9E3B33</color>
+
+
+</resources>

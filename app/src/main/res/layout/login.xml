@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/showLoginRoot">
+    <ImageView android:id="@+id/showAboutLayout"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center" android:scaleType="centerCrop" />
+
+
+    <LinearLayout android:id="@+id/showLoginLogo"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal" android:orientation="vertical"
+        android:layout_alignParentBottom="true" android:gravity="center_horizontal">
+
+        <Button android:id="@+id/buttonLogin" android:layout_width="120dp"
+            android:layout_height="40dp" android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp" android:text="Login" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Login to HeadOut!"
+        android:id="@+id/textView4"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

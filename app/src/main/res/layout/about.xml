@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/showAboutRoot">
+
+    <TextView android:id="@+id/textTwimight"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" android:textSize="30dp"
+        android:text="HeadOut" android:textColor="@color/red"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <TextView android:id="@+id/textMighty" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+        android:textSize="14dp" android:text="The Anti-Social Media Social Media" android:textColor="@color/black"
+        android:layout_below="@+id/textTwimight"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:id="@+id/textAuthors" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center"
+        android:text="Developers"
+        android:textColor="@color/TextLight"
+        android:layout_below="@+id/textMighty"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="60dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Thomas Reichmeider and Caleb Weaver"
+        android:textColor="@color/black"
+        android:layout_below="@+id/textMighty"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Version"
+        android:textColor="@color/TextLight"
+        android:layout_below="@+id/textMighty"
+        android:layout_centerHorizontal="true"
+        android:nestedScrollingEnabled="true"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:layout_below="@+id/textMighty"
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>
