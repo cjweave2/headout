@@ -35,7 +35,7 @@ public class EventRanker {
 
     public static void main(String[] args){
         ArrayList events = new ArrayList();
-        events.add(new Event(1,'a','a','a', 45,45, 5,7,new Date())
-        EventRanker ranker = new EventRanker()
+        events.add(new Event(1,"a","a","a", 45,45, 5,7,new Date(), new ArrayList()));
+        EventRanker ranker = new EventRanker();
     }
 }
